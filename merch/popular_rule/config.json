@@ -1,1 +1,4 @@
-config for popular rule
+[
+  {
+    "country": "global"
+  }]
