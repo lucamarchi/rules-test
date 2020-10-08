@@ -1,0 +1,10 @@
+{
+  "description": "This rule evaluates orders which have been checked-out and triggers a tagging operation",
+  "event": "OrderStatusChangeEvent",
+  "env_blacklist": [
+    "de-prod",
+    "nl-prod",
+    "de-dev",
+    "nl-dev"
+  ]
+}
